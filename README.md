@@ -3,7 +3,7 @@ jekyll-fluidbox
 
 Jekyll plugin to make figures work with the fluidbox jQuery
 
-## Requierements
+## Requirements
 
 * [Nokogiri](http://nokogiri.org/), should be part of the standard Jekyll install
 * [Fluidbox](http://terrymun.github.io/Fluidbox/)
@@ -24,7 +24,6 @@ And put the following into `layouts/default.html` (the paths might be different 
 ```
 <link href="assets/fluidbox.css" media="all" rel="stylesheet" type="text/css" />
 
-<!-- Fluidbox https://github.com/terrymun/Fluidbox -->
 <script src="/js/imagesloaded.pkgd.min.js"></script>
 <script src="/js/jquery.fluidbox.min.js"></script>
 <script type='text/javascript'>
